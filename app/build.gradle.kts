@@ -93,11 +93,11 @@ dependencies {
 
 
     //Dagger hilt
-    implementation("com.google.dagger:hilt-android:2.44")
-    kapt ("com.google.dagger:hilt-android-compiler:2.37")
+    implementation("com.google.dagger:hilt-android:2.47")
+    kapt ("com.google.dagger:hilt-android-compiler:2.47")
     implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
-    kapt("com.google.dagger:hilt-compiler:2.44")
-    implementation("androidx.hilt:hilt-navigation-compose:1.0.0-alpha03")
+    kapt("com.google.dagger:hilt-compiler:2.47")
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0-alpha01")
 
     // Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
@@ -107,6 +107,7 @@ dependencies {
 
     // Room
     implementation ("androidx.room:room-runtime:$room_version")
+    //noinspection KaptUsageInsteadOfKsp
     kapt ("androidx.room:room-compiler:$room_version")
 
     // Kotlin Extensions and Coroutines support for Room
